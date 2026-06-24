@@ -14,7 +14,7 @@ import type { Car } from '@/lib/types';
 
 // Import car images
 import daciaLogan from '@/assets/cars/dacia-logan-2022.jpg';
-import vwPassat from '@/assets/cars/vw-passat-2020.jpg';
+import vwPassat from '@/assets/cars/photo_2026-06-24_14-39-34.jpg';
 import toyotaCamry from '@/assets/cars/toyota-camry-2021.jpg';
 import bmwX5 from '@/assets/cars/bmw-x5-2022.jpg';
 import mercedesCClass from '@/assets/cars/mercedes-c-class-2021.jpg';
@@ -22,7 +22,7 @@ import renaultClio from '@/assets/cars/renault-clio-2023.jpg';
 
 const carImages: Record<string, string> = {
   'dacia-logan-2022': daciaLogan,
-  'vw-passat-2020': vwPassat,
+  'photo_2026-06-24_14-39-34': vwPassat,
   'toyota-camry-2021': toyotaCamry,
   'bmw-x5-2022': bmwX5,
   'mercedes-c-class-2021': mercedesCClass,
