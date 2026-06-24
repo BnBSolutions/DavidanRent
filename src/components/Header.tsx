@@ -68,7 +68,7 @@ export const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
-              <img src={listZonaLogo} alt="ListZona" className="h-10 w-auto object-contain sm:h-11" />
+              <img src={listZonaLogo} alt="ListZona" className="h-12 w-auto object-contain sm:h-12" />
             </Link>
 
             {/* Desktop Navigation */}
