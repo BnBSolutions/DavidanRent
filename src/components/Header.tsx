@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { useAppStore } from '@/store/appStore';
 import { useTranslation } from '@/lib/i18n';
 import { Language } from '@/lib/types';
+import listZonaLogo from "@/assets/Spicy_Way_logo-removebg-preview.png";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -67,10 +68,7 @@ export const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
-              <div className="text-2xl font-bold">
-                <span className="text-foreground">Davi</span>
-                <span className="text-primary">Dan</span>
-              </div>
+              <img src={listZonaLogo} alt="ListZona" className="h-10 w-auto object-contain sm:h-11" />
             </Link>
 
             {/* Desktop Navigation */}
